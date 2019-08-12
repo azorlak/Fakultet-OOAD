@@ -1,0 +1,14 @@
+Strategy pattern:
+izvdaja algoritam iz originalne klase i ukljucuje ga u posebnu klasu(e).
+Može se koristiti kad imamo više algoritama tj. strategija za nešto. Npr. u našoj aplikaciji mogli bi koristiti ovaj pattern kada bi implentirali više algoritama za validaciju u zavinosti sta i koji tip podataka validiramo. 
+
+Observer pattern:
+Kod observer patterna imamo jedan objekat (tzv. subjekt) za koji drugi objekti mogu biti "zainteresovani". Kada se na tom subjetku desi neka promjena, svi ti "zainteresovani" objekti dobiju obavijest da se ta promjena desila. Observer pattern ključan je za MVC i event handling sisteme. 
+U našoj aplikaciji mogao bi se implementirati tako da npr. imamo neku mogućnost da klijenti "prate" stanja nekih vozila za koja su posebno zainteresovani (npr. neko vozilo je rentano i nema ga na stanju, a klijent želi da iznajmi baš to vozilo tipa neka limuzina, sportsko vozilo), te kada se to vozilo vrati u firmu, svi zainteresovani dobiju obavijest o tome. 
+
+
+State pattern:
+mijenja način ponašanja na osnovu trenutnog stanja. 
+U našoj alikaciji mogao bi se koristiti za situacije kad je logovan radnik/admin/klijent aplikacije, jer svaka od tih situacija zahtijeva različit izgled korisničkog interfejsa.
+
+
